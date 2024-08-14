@@ -43,7 +43,7 @@ function Testimonials() {
               What Our Users Are Saying
             </h2>
             <p className="text-lg font-medium text-black/60">
-              At ShopKool, we value the feedback and experiences of our users.
+              At StoreKool, we value the feedback and experiences of our users.
               Hearing how our platform has made a difference in managing
               WooCommerce stores inspires us to keep improving. Here are some
               testimonials from our satisfied users:

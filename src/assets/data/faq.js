@@ -1,18 +1,18 @@
 const faqs = [
   {
-    question: "How many stores can I connect with ShopKool?",
+    question: "How many stores can I connect with StoreKool?",
     answer:
-      "You can connect multiple WooCommerce stores with ShopKool. The exact number depends on the pricing plan you choose. Our plans range from a few stores to unlimited connections.",
+      "You can connect multiple WooCommerce stores with StoreKool. The exact number depends on the pricing plan you choose. Our plans range from a few stores to unlimited connections.",
   },
   {
     question: "Can I update products and orders in real-time?",
     answer:
-      "Yes, ShopKool allows you to update products and orders in real-time across all your connected WooCommerce stores. Changes are synchronized instantly, ensuring your stores are always up-to-date.",
+      "Yes, StoreKool allows you to update products and orders in real-time across all your connected WooCommerce stores. Changes are synchronized instantly, ensuring your stores are always up-to-date.",
   },
   {
     question: "Is there a trial period?",
     answer:
-      "Yes, we offer a 14-day free trial for all our plans. This allows you to explore ShopKool's features and see how it can help manage your WooCommerce stores before committing to a subscription.",
+      "Yes, we offer a 14-day free trial for all our plans. This allows you to explore StoreKool's features and see how it can help manage your WooCommerce stores before committing to a subscription.",
   },
   {
     question: "What happens if I exceed my store limit?",

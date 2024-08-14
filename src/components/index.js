@@ -6,7 +6,6 @@ import Footer from "./footer";
 import Logo from "./logo";
 import Menu from "./menu";
 import Navbar from "./navbar";
-import SectionTwo from "./sectionTwo";
 import Steps from "./steps";
 import Testimonials from "./testimonials";
 
@@ -17,7 +16,6 @@ export {
   Menu,
   Banner,
   CommonSection,
-  SectionTwo,
   FeatureSection,
   Steps,
   Testimonials,

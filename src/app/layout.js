@@ -8,8 +8,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "ShopKool Landing",
-  description: "ShopKool landing page overview",
+  title: "StoreKool Landing",
+  description: "StoreKool landing page overview",
 };
 
 export default function RootLayout({ children }) {

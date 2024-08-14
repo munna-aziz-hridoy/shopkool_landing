@@ -9,7 +9,7 @@ const steps = [
     step: 1,
     title: "Get Your WooCommerce Consumer Key (CK) and Consumer Secret (CS)",
     content:
-      "To connect your WooCommerce store with ShopKool, you’ll need to obtain the Consumer Key (CK) and Consumer Secret (CS) from your WooCommerce store. These keys allow ShopKool to securely communicate with your store’s data. Follow these simple steps to get your CK and CS: ",
+      "To connect your WooCommerce store with StoreKool, you’ll need to obtain the Consumer Key (CK) and Consumer Secret (CS) from your WooCommerce store. These keys allow StoreKool to securely communicate with your store’s data. Follow these simple steps to get your CK and CS: ",
     details: `<ol>
   <li><strong>Log into Your WooCommerce Store:</strong>
     <ul>
@@ -28,8 +28,8 @@ const steps = [
   <li><strong>Create a New API Key:</strong>
     <ul>
       <li>Click on the <strong>Add Key</strong> button.</li>
-      <li>Provide a description for the key (e.g., "ShopKool Integration").</li>
-      <li>Set the Permissions to <strong>Read/Write</strong> so ShopKool can manage products and orders.</li>
+      <li>Provide a description for the key (e.g., "StoreKool Integration").</li>
+      <li>Set the Permissions to <strong>Read/Write</strong> so StoreKool can manage products and orders.</li>
       <li>Click on <strong>Generate API Key</strong>.</li>
     </ul>
   </li>
@@ -48,7 +48,7 @@ const steps = [
     step: 3,
     title: "Adding a store",
     content:
-      "To manage your WooCommerce stores within ShopKool, you first need to add them to the application. Follow these steps to successfully add your store:",
+      "To manage your WooCommerce stores within StoreKool, you first need to add them to the application. Follow these steps to successfully add your store:",
     details: `<ol>
   <li><strong>Navigate to Add Store</strong>
     <ul>
@@ -58,7 +58,7 @@ const steps = [
   <li><strong>Enter Store Details</strong>
     <ul>
       <li><strong>Shop URL:</strong> Enter the full URL of your WooCommerce store. This should be the base URL of your online shop (e.g., <code>https://yourshop.com</code>).</li>
-      <li><strong>Shop Name:</strong> Provide a name for your store. This is how your store will be identified within ShopKool.</li>
+      <li><strong>Shop Name:</strong> Provide a name for your store. This is how your store will be identified within StoreKool.</li>
       <li><strong>Consumer Key (CK):</strong> Enter the WooCommerce API Consumer Key. You can generate this key in your WooCommerce store's settings under the API or REST API section.</li>
       <li><strong>Consumer Secret (CS):</strong> Enter the WooCommerce API Consumer Secret. This is generated along with the Consumer Key and is necessary for secure API communication.</li>
     </ul>
@@ -66,7 +66,7 @@ const steps = [
   <li><strong>Submit Information</strong>
     <ul>
       <li>After filling in all the required details, click the "Submit" button.</li>
-      <li>Upon successful submission, your store will be added to ShopKool, and it will appear in the sidebar for easy access.</li>
+      <li>Upon successful submission, your store will be added to StoreKool, and it will appear in the sidebar for easy access.</li>
     </ul>
   </li>
 </ol>
@@ -80,19 +80,19 @@ const steps2 = [
     step: 2,
     title: "Logging In",
     content:
-      "To start using ShopKool, you'll need to log in to your account. The login process is straightforward, allowing you to access your dashboard where you can manage all your WooCommerce stores. Here's how to log in: ",
+      "To start using StoreKool, you'll need to log in to your account. The login process is straightforward, allowing you to access your dashboard where you can manage all your WooCommerce stores. Here's how to log in: ",
     details: `<ol>
-  <li><strong>Access the ShopKool Login Page</strong>
+  <li><strong>Access the StoreKool Login Page</strong>
     <ul>
       <li><strong>Open Your Web Browser:</strong> Launch your preferred web browser (e.g., Chrome, Firefox, Safari).</li>
-      <li><strong>Navigate to the Login Page:</strong> In the address bar, type in the URL for the ShopKool login page (e.g., <a href="https://yourshopkoolapp.com/login">https://yourshopkoolapp.com/login</a>) and press Enter.</li>
+      <li><strong>Navigate to the Login Page:</strong> In the address bar, type in the URL for the StoreKool login page (e.g., <a href="https://yourStoreKoolapp.com/login">https://yourStoreKoolapp.com/login</a>) and press Enter.</li>
     </ul>
   </li>
   <li><strong>Enter Your Credentials</strong>
     <ul>
       <li><strong>Email and Password:</strong>
         <ul>
-          <li><strong>Registered Email:</strong> In the email field, enter the email address you used when registering for your ShopKool account.</li>
+          <li><strong>Registered Email:</strong> In the email field, enter the email address you used when registering for your StoreKool account.</li>
           <li><strong>Password:</strong> In the password field, enter your secure password.</li>
           <li><strong>Forgot Password:</strong> If you've forgotten your password, click on the "Forgot Password?" link to initiate the password recovery process. You'll receive an email with instructions on how to reset your password.</li>
         </ul>
@@ -101,14 +101,14 @@ const steps2 = [
         <ul>
           <li>If you prefer, you can log in using your Google account.</li>
           <li><strong>Click the "Log in with Google" Button:</strong> This will redirect you to Google's authentication page.</li>
-          <li><strong>Authorize Access:</strong> Select the Google account you wish to use, and authorize ShopKool to access your account. Once authorized, you’ll be automatically logged in to ShopKool.</li>
+          <li><strong>Authorize Access:</strong> Select the Google account you wish to use, and authorize StoreKool to access your account. Once authorized, you’ll be automatically logged in to StoreKool.</li>
         </ul>
       </li>
     </ul>
   </li>
-  <li><strong>Access the ShopKool Dashboard</strong>
+  <li><strong>Access the StoreKool Dashboard</strong>
     <ul>
-      <li><strong>Successful Login:</strong> Upon successfully entering your credentials, you’ll be redirected to the ShopKool dashboard.</li>
+      <li><strong>Successful Login:</strong> Upon successfully entering your credentials, you’ll be redirected to the StoreKool dashboard.</li>
       <li><strong>Dashboard Overview:</strong> The dashboard serves as the central hub for managing your WooCommerce stores. Here, you’ll see options to add new stores, manage existing ones, and perform various tasks like product and order management.</li>
     </ul>
   </li>
@@ -120,7 +120,7 @@ const steps2 = [
     step: 4,
     title: "Managing Store",
     content:
-      "Once you have added your WooCommerce stores to ShopKool, you can easily manage and view them from the dashboard. Follow these steps to effectively manage your connected stores:",
+      "Once you have added your WooCommerce stores to StoreKool, you can easily manage and view them from the dashboard. Follow these steps to effectively manage your connected stores:",
     details: `<ol>
   <li><strong>Viewing Store</strong>
     <ul>

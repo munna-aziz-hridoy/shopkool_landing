@@ -9,9 +9,14 @@ function Navbar() {
           <Logo />
           <div className="flex justify-end gap-4">
             <Menu />
-            <button className="border-2 border-white px-3 py-1 text-white font-medium hover:bg-white hover:text-primary duration-200">
+            <a
+              href="https://multistore-management.vercel.app/"
+              rel="noreferrer"
+              target="_blank"
+              className="border-2 border-white px-3 py-1 text-white font-medium hover:bg-white hover:text-primary duration-200"
+            >
               Try Free Now
-            </button>
+            </a>
           </div>
         </div>
       </div>

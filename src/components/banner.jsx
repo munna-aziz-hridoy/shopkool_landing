@@ -13,12 +13,12 @@ function Banner() {
           <span className="text-primary">Simplify </span> your WooCommerce{" "}
           <br /> management with
           <br />
-          <span className="text-primary">ShopKool</span>.
+          <span className="text-primary">StoreKool</span>.
         </h2>
       }
       subtitle="Connect, Manage, and Update Multiple Stores Effortlessly."
       content={
-        "Are you managing multiple WooCommerce stores? Tired of updating products and orders one by one? ShopKool is here to revolutionize your store management. Connect, update, and manage all your stores from one place with ease."
+        "Are you managing multiple WooCommerce stores? Tired of updating products and orders one by one? StoreKool is here to revolutionize your store management. Connect, update, and manage all your stores from one place with ease."
       }
     />
   );

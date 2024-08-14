@@ -6,12 +6,12 @@ function FeatureSection() {
     <section className="bg-gray-50">
       <div className="max-w-7xl mx-auto py-14">
         <h2 className="text-3xl font-bold text-black/80 text-center mb-5">
-          Why Choose <span className="text-primary">ShopKool</span>?
+          Why Choose <span className="text-primary">StoreKool</span>?
         </h2>
 
         <p className="font-light text-black/60 my-4 text-center w-full md:w-2/3 mx-auto">
           Connect, Manage, and Update Multiple Stores Effortlessly with
-          ShopKool. Designed for WooCommerce store managers, ShopKool
+          StoreKool. Designed for WooCommerce store managers, StoreKool
           streamlines your workflow with powerful bulk update features,
           real-time synchronization, and an intuitive interface.
         </p>

@@ -22,9 +22,14 @@ function CommonSection({
               {subtitle}
             </p>
             <p className="font-light text-black/60 my-4">{content}</p>
-            <button className="border-2 border-primary/80 px-3 py-1 text-white font-medium bg-primary/80 hover:bg-transparent hover:text-primary duration-200 mt-7">
+            <a
+              href="https://multistore-management.vercel.app/"
+              rel="noreferrer"
+              target="_blank"
+              className="border-2 border-primary/80 px-3 py-1 text-white font-medium bg-primary/80 hover:bg-transparent hover:text-primary duration-200 mt-7"
+            >
               Try Free Now
-            </button>
+            </a>
           </div>
           <div className="w-full lg:w-1/2">
             <div className="relative w-full h-full">

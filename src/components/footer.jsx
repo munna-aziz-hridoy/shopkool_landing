@@ -11,7 +11,7 @@ function Footer() {
             <Logo />
             <p class="text-gray-100">
               Simplify your WooCommerce management. Connect, manage, and update
-              multiple stores effortlessly with ShopKool.
+              multiple stores effortlessly with StoreKool.
             </p>
           </div>
 
@@ -48,10 +48,10 @@ function Footer() {
             <p class="text-gray-100">
               Email:{" "}
               <a
-                href="mailto:support@shopkool.com"
+                href="mailto:support@StoreKool.com"
                 class="text-gray-100 hover:text-white"
               >
-                support@shopkool.com
+                support@StoreKool.com
               </a>
             </p>
             <p class="text-gray-100">
@@ -89,7 +89,7 @@ function Footer() {
         {/* <!-- Footer Bottom --> */}
         <div class="mt-8 border-t border-gray-300 pt-4">
           <p class="text-center text-gray-100">
-            &copy; 2024 ShopKool. All rights reserved.
+            &copy; 2024 StoreKool. All rights reserved.
           </p>
         </div>
       </div>

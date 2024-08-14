@@ -1,18 +1,15 @@
+import Link from "next/link";
 import React from "react";
 
 const menus = [
   {
     title: "Docs",
-    url: "/ShopKool.pdf",
-    download: true,
+    url: "/docs",
   },
   {
     title: "About",
-    url: "/about",
-  },
-  {
-    title: "Technology",
-    url: "/technology",
+    url: "https://mirailit.com/",
+    external: true,
   },
 ];
 
@@ -21,13 +18,22 @@ function Menu() {
     <ul className="flex justify-end gap-5">
       {menus.map((menu, i) => (
         <li key={i} className="hover:bg-primary/5 px-3 py-1 duration-200">
-          <a
-            className="text-lg font-medium text-white/70 hover:text-white"
-            href={menu.url}
-            download={menu.download ? true : undefined}
-          >
-            {menu.title}
-          </a>
+          {menu?.external ? (
+            <a
+              className="text-lg font-medium text-white/70 hover:text-white"
+              href={menu.url}
+              target={"_blank"}
+              rel={"noopener noreferrer"}
+            >
+              {menu.title}
+            </a>
+          ) : (
+            <Link href={menu.url}>
+              <p className="text-lg font-medium text-white/70 hover:text-white">
+                {menu.title}
+              </p>
+            </Link>
+          )}
         </li>
       ))}
     </ul>
