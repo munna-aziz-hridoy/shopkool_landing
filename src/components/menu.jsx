@@ -7,6 +7,10 @@ const menus = [
     url: "/docs",
   },
   {
+    title: "Blogs",
+    url: "/blogs",
+  },
+  {
     title: "About",
     url: "https://mirailit.com/",
     external: true,

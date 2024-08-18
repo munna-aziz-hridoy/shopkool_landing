@@ -6,6 +6,7 @@ import Footer from "./footer";
 import Logo from "./logo";
 import Menu from "./menu";
 import Navbar from "./navbar";
+import Spinner from "./spinner";
 import Steps from "./steps";
 import Testimonials from "./testimonials";
 
@@ -20,4 +21,5 @@ export {
   Steps,
   Testimonials,
   Faqs,
+  Spinner,
 };
