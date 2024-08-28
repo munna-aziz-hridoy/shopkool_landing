@@ -36,12 +36,16 @@ function BlogDetails() {
               <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">
                 {section.heading}
               </h2>
-              <p className="text-gray-700 mb-4">{section.content}</p>
+              <div
+                dangerouslySetInnerHTML={{ __html: section.content }}
+                className="text-gray-700 mb-4"
+              />
               {section.image && (
                 <div className="w-full min-h-[500px] relative">
                   <Image
                     layout="fill"
                     objectFit="contain"
+                    objectPosition="left"
                     src={section.image.src}
                     alt={section.heading}
                   />
@@ -53,7 +57,10 @@ function BlogDetails() {
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">
             Conclusion
           </h2>
-          <p className="text-gray-700 mb-4">{active_blog.conclusion}</p>
+          <div
+            dangerouslySetInnerHTML={{ __html: active_blog.conclusion }}
+            className="text-gray-700 mb-4"
+          />
         </div>
       )}
     </Fragment>

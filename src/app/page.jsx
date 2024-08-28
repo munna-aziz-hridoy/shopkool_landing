@@ -1,7 +1,9 @@
 import {
   Banner,
+  ContactForm,
   Faqs,
   FeatureSection,
+  PricingSection,
   Steps,
   Testimonials,
 } from "@/components";
@@ -12,8 +14,10 @@ export default function Home() {
       <Banner />
       <FeatureSection />
       <Steps />
+      <PricingSection />
       <Testimonials />
       <Faqs />
+      <ContactForm />
     </main>
   );
 }

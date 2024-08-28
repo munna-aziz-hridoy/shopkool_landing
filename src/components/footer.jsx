@@ -5,9 +5,9 @@ function Footer() {
   return (
     <footer class="bg-primary text-gray-200 py-8">
       <div class="max-w-7xl mx-auto">
-        <div class="flex flex-wrap justify-between">
+        <div class="flex flex-wrap justify-between gap-10">
           {/* <!-- Logo and Description --> */}
-          <div class="w-full md:w-1/3 mb-6">
+          <div class="mb-6 w-full md:w-[30%]">
             <Logo />
             <p class="text-gray-100">
               Simplify your WooCommerce management. Connect, manage, and update
@@ -16,26 +16,31 @@ function Footer() {
           </div>
 
           {/* <!-- Quick Links --> */}
-          <div class="w-full md:w-1/3 mb-6">
+          <div class="mb-6 w-full md:w-[30%]">
             <h3 class="text-lg font-semibold text-white mb-2">Quick Links</h3>
             <ul>
               <li>
-                <a href="#" class="text-gray-100 hover:text-white">
+                <a href="#features" class="text-gray-100 hover:text-white">
                   Features
                 </a>
               </li>
               <li>
-                <a href="#" class="text-gray-100 hover:text-white">
+                <a href="#pricing" class="text-gray-100 hover:text-white">
                   Pricing
                 </a>
               </li>
               <li>
-                <a href="#" class="text-gray-100 hover:text-white">
+                <a
+                  href="https://mirailit.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-gray-100 hover:text-white"
+                >
                   About
                 </a>
               </li>
               <li>
-                <a href="#" class="text-gray-100 hover:text-white">
+                <a href="#contact" class="text-gray-100 hover:text-white">
                   Contact
                 </a>
               </li>
@@ -43,7 +48,7 @@ function Footer() {
           </div>
 
           {/* <!-- Contact Information --> */}
-          <div class="w-full md:w-1/3 mb-6">
+          <div class="mb-6 w-full md:w-[30%]">
             <h3 class="text-lg font-semibold text-white mb-2">Contact Us</h3>
             <p class="text-gray-100">
               Email:{" "}
@@ -51,13 +56,13 @@ function Footer() {
                 href="mailto:support@StoreKool.com"
                 class="text-gray-100 hover:text-white"
               >
-                support@StoreKool.com
+                storekool.helpdesk@gmail.com
               </a>
             </p>
             <p class="text-gray-100">
               Phone:{" "}
               <a href="tel:+123456789" class="text-gray-100 hover:text-white">
-                +123 456 789
+                +8801616214600
               </a>
             </p>
             <div class="flex mt-4 space-x-4">

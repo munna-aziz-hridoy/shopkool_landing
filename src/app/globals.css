@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .raw_content ol,
 .raw_content ul {
   list-style: inside;

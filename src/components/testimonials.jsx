@@ -59,19 +59,19 @@ function Testimonials() {
               >
                 {testimonials.map((testimonial, i) => (
                   <div key={i} className="relative">
-                    <div className="flex gap-8 items-center bg-white p-8 rounded min-h-[350px]">
+                    <div className="flex gap-8 items-start bg-white p-8 rounded min-h-[350px]">
                       <div>
                         <div className="w-32 h-32 relative rounded-full">
                           <Image
                             src={testimonial.image.src}
                             layout="fill"
-                            objectFit="cover"
+                            objectFit="contain"
                             className="rounded-full"
                           />
                         </div>
                       </div>
                       <div>
-                        <p className="text-black/70 font-medium text-lg mb-3">
+                        <p className="text-black/70 font-medium mb-3">
                           {testimonial.testimonial}
                         </p>
                         <div className="flex items-center gap-5">

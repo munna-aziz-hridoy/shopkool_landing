@@ -3,7 +3,7 @@ import React from "react";
 
 function FeatureSection() {
   return (
-    <section className="bg-gray-50">
+    <section id="features" className="bg-gray-50">
       <div className="max-w-7xl mx-auto py-14">
         <h2 className="text-3xl font-bold text-black/80 text-center mb-5">
           Why Choose <span className="text-primary">StoreKool</span>?

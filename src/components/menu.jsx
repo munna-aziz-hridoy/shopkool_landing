@@ -15,6 +15,10 @@ const menus = [
     url: "https://mirailit.com/",
     external: true,
   },
+  {
+    title: "Contact",
+    url: "#contact",
+  },
 ];
 
 function Menu() {
