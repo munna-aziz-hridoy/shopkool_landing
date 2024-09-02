@@ -1,5 +1,5 @@
 import Banner from "./banner";
-import CommonSection from "./commonSection";
+import BannerSection from "./bannerSection";
 import ContactForm from "./contact";
 import Faqs from "./faqs";
 import FeatureSection from "./feature";
@@ -18,7 +18,7 @@ export {
   Logo,
   Menu,
   Banner,
-  CommonSection,
+  BannerSection as CommonSection,
   FeatureSection,
   Steps,
   Testimonials,

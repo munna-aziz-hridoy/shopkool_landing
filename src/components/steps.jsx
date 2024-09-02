@@ -28,7 +28,12 @@ function Steps() {
     <section className="">
       <div className="max-w-7xl mx-auto py-14">
         <h2 class="text-3xl font-bold text-black/80 mb-5">
-          How <span className="text-primary">StoreKool</span> Works
+          How{" "}
+          <span className="text-primary relative">
+            StoreKool{" "}
+            <span className="absolute bg-primary/30 w-full h-5 left-0 bottom-0 rounded" />{" "}
+          </span>{" "}
+          Works
         </h2>
         <div class="grid pt-8 text-left border-t border-primary/30 md:gap-16  md:grid-cols-2">
           <div className="flex flex-col gap-4">

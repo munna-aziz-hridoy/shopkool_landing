@@ -1,6 +1,7 @@
 import React from "react";
 
 import bannerImg from "@/assets/images/banner.png";
+import bannerImg2 from "@/assets/images/banner_2.png";
 
 import { CommonSection } from ".";
 
@@ -8,12 +9,20 @@ function Banner() {
   return (
     <CommonSection
       imageSrc={bannerImg.src}
+      imageSrc2={bannerImg2.src}
       title={
         <h2 className="text-4xl font-bold text-black/90 leading-snug">
-          <span className="text-primary">Simplify </span> your WooCommerce{" "}
-          <br /> management with
+          <span className="text-primary relative">
+            Simplify{" "}
+            <span className="absolute bg-primary/30 w-full h-5 left-0 bottom-0 rounded" />{" "}
+          </span>{" "}
+          your WooCommerce <br /> management with
           <br />
-          <span className="text-primary">StoreKool</span>.
+          <span className="text-primary relative">
+            StoreKool{" "}
+            <span className="absolute bg-primary/30 w-full h-5 left-0 bottom-0 rounded" />
+          </span>
+          .
         </h2>
       }
       subtitle="Connect, Manage, and Update Multiple Stores Effortlessly."

@@ -6,7 +6,12 @@ function FeatureSection() {
     <section id="features" className="bg-gray-50">
       <div className="max-w-7xl mx-auto py-14">
         <h2 className="text-3xl font-bold text-black/80 text-center mb-5">
-          Why Choose <span className="text-primary">StoreKool</span>?
+          Why Choose{" "}
+          <span className="text-primary relative">
+            StoreKool{" "}
+            <span className="absolute bg-primary/30 w-full h-5 left-0 bottom-0 rounded" />
+          </span>
+          ?
         </h2>
 
         <p className="font-light text-black/60 my-4 text-center w-full md:w-2/3 mx-auto">
@@ -20,13 +25,15 @@ function FeatureSection() {
           {features.map((feature, i) => (
             <div
               key={i}
-              className="w-full shadow bg-white rounded p-5 flex flex-col justify-center items-center gap-4"
+              className="w-full shadow bg-white rounded p-5 flex flex-col justify-center items-center gap-4 hover:bg-primary duration-200 hover:-translate-y-4 group"
             >
-              {feature.icon}
-              <h2 className="text-primary/80 text-2xl font-semibold text-center">
+              <div className="w-24 h-24 bg-primary flex justify-center items-center rounded-full group-hover:bg-white duration-200">
+                {feature.icon}
+              </div>
+              <h2 className="text-primary/80 text-2xl font-semibold text-center group-hover:text-white duration-200">
                 {feature.title}
               </h2>
-              <p className="font-medium text-black/80 text-center mt-3 mb-5">
+              <p className="font-medium text-black/80 text-center mt-3 mb-5 group-hover:text-white duration-200">
                 {feature.text}
               </p>
             </div>

@@ -19,3 +19,12 @@ html {
   list-style-type: decimal;
   list-style-position: inside;
 }
+
+.magicpattern {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22b%22 gradientTransform=%22rotate(-45 .5 .5)%22%3E%3Cstop offset=%220%25%22 stop-color=%22%2387bfff%22%2F%3E%3Cstop offset=%22100%25%22 stop-color=%22%23000aff%22%2F%3E%3C%2FlinearGradient%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M777.5 639.5Q661 779 459 850T150 710.5Q43 500 177.5 337.5t343-198.5q208.5-36 291 162.5t-34 338Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22url(%23b)%22 d=%22M777.5 639.5Q661 779 459 850T150 710.5Q43 500 177.5 337.5t343-198.5q208.5-36 291 162.5t-34 338Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}

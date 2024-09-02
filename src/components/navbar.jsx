@@ -10,12 +10,15 @@ function Navbar() {
           <div className="flex justify-end gap-4">
             <Menu />
             <a
-              href="https://multistore-management.vercel.app/"
+              href="https://app.storekool.com"
               rel="noreferrer"
               target="_blank"
-              className="border-2 border-white px-3 py-1 text-white font-medium hover:bg-white hover:text-primary duration-200"
+              className="border-2 border-white px-4 py-2  bg-transparent duration-200 rounded-3xl relative overflow-hidden group"
             >
-              Try Free Now
+              <p className="z-20 text-white font-medium group-hover:text-primary relative">
+                Try Free Now
+              </p>
+              <span className="absolute top-0 -left-[200px] group-hover:left-0 z-10 w-[101%] h-[101%] duration-500 bg-white rounded-full" />
             </a>
           </div>
         </div>
