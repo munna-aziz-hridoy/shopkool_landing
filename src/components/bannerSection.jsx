@@ -12,7 +12,7 @@ function BannerSection({
   imageSrc2,
 }) {
   return (
-    <section className="p-4 relative overflow-hidden">
+    <section className="p-4 relative overflow-hidden py-20">
       {/* Blob Background */}
       <div className="absolute inset-0 -z-10">
         <div className="relative w-full h-full">
@@ -28,7 +28,7 @@ function BannerSection({
           />
           <div className="absolute bottom-4 left-14 w-6 h-6 bg-green-300 opacity-60 rounded-full filter animate-blob2"></div>
           <div className="absolute top-10 left-10 w-4 h-4 bg-orange-500 opacity-60 rounded-full filter animate-blob"></div>{" "}
-          <div className="absolute bottom-10 left-10 w-4 h-4 bg-black opacity-60 rounded-full filter animate-blob"></div>
+          <div className="absolute bottom-10 left-10 w-4 h-4 bg-black opacity-60 rounded-full filter animate-blob2"></div>
         </div>
       </div>
 
